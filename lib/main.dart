@@ -1,14 +1,14 @@
 
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(MyApp());
+void main() { // Main Function is the entrypoint for the Flutter code
+  runApp(MyApp()); // Called runApp to start running the app
 }
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) {   // to print on Screen
     return MaterialApp(
       title: 'Flutter Demo',
       //darkTheme: ThemeData.dark(),
